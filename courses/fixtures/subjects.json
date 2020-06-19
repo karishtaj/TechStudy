@@ -1,0 +1,25 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Python Tutorial",
+    "slug": "python-tutorial",
+    "overview": "Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.\r\n\r\nPython Getting Started\r\n\r\nPython Installation on Windows\r\nConditional Statements & Loops in Python\r\nString in Python\r\nPython List, Tuple, Set, Dictionary\r\nClass & Objects in Python\r\nOOPS Concepts in Python",
+    "created": "2020-06-17T10:18:25.846Z",
+    "students": [
+      2
+    ]
+  }
+}
+]
